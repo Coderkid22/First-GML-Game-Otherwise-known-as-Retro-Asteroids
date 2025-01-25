@@ -1,2 +1,2 @@
-# My FIrst GmlGame
+# My First Gamemaker Game
  first gml game
