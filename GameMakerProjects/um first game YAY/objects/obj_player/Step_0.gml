@@ -4,23 +4,11 @@ if keyboard_check(ord("W"))
 }
 
 var angle =  point_direction(x, y, mouse_x, mouse_y)
- 
-
- image_angle = angle
+image_angle = angle
 
 move_wrap(true, true, 80)
 
 if mouse_check_button_pressed(mb_left)
 {
 	instance_create_layer(x, y, "Instances", obj_bullet);
-}
-
-if keyboard_check(vk_left)
-{
-	image_angle += 4;
-}
-
-if keyboard_check(vk_right)
-{
-	image_angle -= 4;
 }
