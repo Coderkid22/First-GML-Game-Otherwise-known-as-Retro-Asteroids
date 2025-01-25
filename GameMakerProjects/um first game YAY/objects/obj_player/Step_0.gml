@@ -13,9 +13,9 @@ if keyboard_check(vk_right)
 	image_angle -= 4;
 }
 
-move_wrap(true, true, 20)
+move_wrap(true, true, 80)
 
-if mouse_check_button_pressed(mb_left)
+if keyboard_check_released(vk_shift)
 {
-	instance_create_layer(x + 20, y, "Instances", obj_bullet);
+	instance_create_layer(x, y, "Instances", obj_bullet);
 }
