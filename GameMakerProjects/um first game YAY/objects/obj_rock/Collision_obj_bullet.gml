@@ -1,4 +1,7 @@
+audio_play_sound(snd_rockdestroy, 0 , false, random_range(0.8, 1.4), 0.1, random_range(0.6, 1.1))
+
 obj_game.points += 50
+
 
 instance_destroy(other);
 
