@@ -1,8 +1,6 @@
-
-
 if keyboard_check(ord("W"))
 {
-	motion_add(image_angle, 0.07);
+	motion_add(image_angle, 0.064);
 }
 
 if keyboard_check(ord("S"))
