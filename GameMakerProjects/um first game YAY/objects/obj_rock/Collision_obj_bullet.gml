@@ -1,3 +1,5 @@
+obj_game.points += 50
+
 instance_destroy(other);
 
 effect_create_layer("Particles", ef_explosion, x, y, 2, c_dkgrey);
