@@ -1,11 +1,11 @@
-if keyboard_check(ord("W"))
+if keyboard_check(ord("W")) or keyboard_check(vk_up)
 {
 	motion_add(image_angle, 0.064);
 }
 
-if keyboard_check(ord("S"))
+if keyboard_check(ord("S")) or keyboard_check(vk_down)
 {
-	motion_set(image_angle, -0.07);
+	motion_add(image_angle, -0.07);
 }
 
 var angle =  point_direction(x, y, mouse_x, mouse_y)
