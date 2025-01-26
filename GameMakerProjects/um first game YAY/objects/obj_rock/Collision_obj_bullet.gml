@@ -1,4 +1,4 @@
-obj_game.points += 9999999999999999999999
+obj_game.points += 50
 
 instance_destroy(other);
 
