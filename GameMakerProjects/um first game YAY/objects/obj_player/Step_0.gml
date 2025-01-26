@@ -1,6 +1,13 @@
+
+
 if keyboard_check(ord("W"))
 {
-	motion_add(image_angle, 999999999999999999999);
+	motion_add(image_angle, 0.07);
+}
+
+if keyboard_check(ord("S"))
+{
+	motion_set(image_angle, -0.07);
 }
 
 var angle =  point_direction(x, y, mouse_x, mouse_y)
