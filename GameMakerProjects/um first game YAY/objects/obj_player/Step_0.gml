@@ -9,11 +9,13 @@ if keyboard_check(ord("S")) or keyboard_check(vk_down)
 }
 
 var angle =  point_direction(x, y, mouse_x, mouse_y)
-image_angle = angle
+image_angle =  angle
 
 move_wrap(true, true, 80)
 
 if mouse_check_button_pressed(mb_left)
 {
 	instance_create_layer(x, y, "Instances", obj_bullet);
+	
+	audio_play_sound(snd_shoot, 0, false, random_range(0.5, 1.5), 0, random_range(0.8, 1.2))
 }
