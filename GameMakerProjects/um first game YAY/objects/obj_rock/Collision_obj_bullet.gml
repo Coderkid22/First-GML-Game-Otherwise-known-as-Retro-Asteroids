@@ -10,7 +10,7 @@ if sprite_index == spr_rock_big
 	instance_copy(true);
 	
 }
-else if instance_number(obj_rock) < 12
+else if instance_number(obj_rock) < 18
 {
 	sprite_index = spr_rock_big;
 	x = -100
