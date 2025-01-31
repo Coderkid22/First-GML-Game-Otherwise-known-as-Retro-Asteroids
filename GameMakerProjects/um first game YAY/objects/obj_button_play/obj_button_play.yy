@@ -1,12 +1,14 @@
 {
   "$GMObject":"",
-  "%Name":"Object6",
+  "%Name":"obj_button_play",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Object6",
-  "overriddenProperties":[],
+  "name":"obj_button_play",
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_button_parent","path":"objects/obj_button_parent/obj_button_parent.yy",},"propertyId":{"name":"button_text","path":"objects/obj_button_parent/obj_button_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Play",},
+  ],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",

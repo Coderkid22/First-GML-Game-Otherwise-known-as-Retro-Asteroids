@@ -1,7 +1,7 @@
 {
   "$GMRoom":"v1",
   "%Name":"rm_menu",
-  "creationCodeFile":"",
+  "creationCodeFile":"rooms/rm_menu/RoomCreationCode.gml",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
@@ -12,7 +12,7 @@
     {"name":"inst_7B5A7AEA","path":"rooms/rm_menu/rm_menu.yy",},
     {"name":"inst_4F704056","path":"rooms/rm_menu/rm_menu.yy",},
   ],
-  "isDnd":false,
+  "isDnd":true,
   "layers":[
     {"$GMREffectLayer":"","%Name":"Particles","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Particles","properties":[],"resourceType":"GMREffectLayer","resourceVersion":"2.0","userdefinedDepth":true,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":200,"effectEnabled":true,"effectType":"none","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
